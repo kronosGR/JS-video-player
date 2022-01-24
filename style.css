@@ -1,5 +1,5 @@
 :root {
-  --primary-color: dodgerblue;
+  --primary-color: rgb(112, 20, 97);
   --font-color: white;
 }
 
@@ -174,13 +174,23 @@ video {
   margin-right: 15px;
 }
 
+select,
+option{
+  cursor: pointer;
+}
+
 select {
+  background: transparent;
   color: var(--font-color);
   border: none;
   font-size: 18px;
   position: relative;
   top: -2.5px;
   border-radius: 5px;
+}
+
+select:focus{
+  outline: none;
 }
 
 select > option {
