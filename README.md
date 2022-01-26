@@ -1,4 +1,4 @@
-# Javascript - 
+# Javascript - Video Player
 
 * HTML
 * CSS
